@@ -13,3 +13,6 @@ ssh ssh ubuntu18@10.0.2.15
 
 https://bobcares.com/blog/virtualbox-ssh-nat/
 ssh -p 2522 ubuntu18@127.0.0.1
+After this step, you must be able to access both machine
+
+3. 
