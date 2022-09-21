@@ -7,7 +7,7 @@ sudo systemctl enable ssh --now
 
 2. Test the SSH connection between two machine
 check the with ifconfig in terminal
-![alt text](https://github.com/irfanrah/ROS-VM-Connection/pics/1.png?raw=true)
+![alt text](https://github.com/irfanrah/ROS-VM-Connection/pics/1.png?raw=true](https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/1.png))
 ssh irfanrah@223.195.39.11
 ssh ssh ubuntu18@10.0.2.15
 
