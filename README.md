@@ -15,4 +15,9 @@ https://bobcares.com/blog/virtualbox-ssh-nat/
 ssh -p 2522 ubuntu18@127.0.0.1
 After this step, you must be able to access both machine
 
-3. 
+3. Clone this repo in both machine
+cd catkin_ws/src
+git clone https://github.com/irfanrah/ROS-VM-Connection
+
+4. Multiple machine setup
+http://wiki.ros.org/ROS/Tutorials/MultipleMachines
