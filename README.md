@@ -21,13 +21,16 @@ After this step, you must be able to access both machine
 cd catkin_ws/src
 git clone https://github.com/irfanrah/ROS-VM-Connection
 
+
 4. Multiple machine setup
 http://wiki.ros.org/ROS/Tutorials/MultipleMachines
+
 
 a. In master machine 
 nano ~/.bashrc
 export ROS_MASTER_URI=223.195.39.11:11311
 export ROS_HOSTNAME=223.195.39.11
+
 
 a. In slave machine
 export ROS_MASTER_URI=223.195.39.11:11311
