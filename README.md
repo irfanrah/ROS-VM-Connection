@@ -77,7 +77,7 @@ export ROS_IP=192.168.56.101
 
 
 ```
-8. Check it;s working
+8. Check it's working
 a. master machine
 roscore
 cd catkin_ws/src/scripts
