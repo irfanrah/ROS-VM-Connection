@@ -38,13 +38,14 @@ git clone https://github.com/irfanrah/ROS-VM-Connection
 4. Multiple machine setup
 http://wiki.ros.org/ROS/Tutorials/MultipleMachines
 
-
 a. In master machine 
 nano ~/.bashrc
-export ROS_MASTER_URI=223.195.39.11:11311
-export ROS_HOSTNAME=223.195.39.11
+export ROS_MASTER_URI=http://192.168.56.1:11311
+export ROS_HOSTNAME=192.168.56.1
 
+b. In slave machine
+export ROS_MASTER_URI=192.168.56.1:11311
+export ROS_HOSTNAME=192.168.56.101
+export ROS_IP=192.168.56.101
+![alt text](https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/4a.png)
 
-a. In slave machine
-export ROS_MASTER_URI=223.195.39.11:11311
-export ROS_HOSTNAME=10.0.2.15
