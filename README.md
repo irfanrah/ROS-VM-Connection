@@ -1,5 +1,6 @@
 # ROS-VM-Connection
 
+'''
 1. You need to change the network on Virtual Machine, because NAT network (default) is not compatible with ROS communication
 (http://wiki.ros.org/win_ros/Tutorials/WinRos%20and%20Virtual%20Ubuntu)
 go to File > Host Network Manager > and set up a new profile like this
@@ -12,7 +13,7 @@ After that, you can change the VM slave connection to Host-only Adapter
 <p align="center">
 <img src="https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/1.png" width=50% height=50%>
 </p>
-
+'''
 
 2. Check your ip with ifconfig in terminal
 <p align="center">
