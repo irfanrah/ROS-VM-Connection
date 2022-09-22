@@ -3,7 +3,7 @@
 ```
 1. You need to change the network on Virtual Machine, 
 because NAT network (default) is not compatible with ROS communication
-> http://wiki.ros.org/win_ros/Tutorials/WinRos%20and%20Virtual%20Ubuntu
+http://wiki.ros.org/win_ros/Tutorials/WinRos%20and%20Virtual%20Ubuntu
 go to File > Host Network Manager > and set up a new profile like this
 
 After that, you can change the VM slave connection to Host-only Adapter
@@ -42,7 +42,7 @@ sudo systemctl enable ssh --now
 
 ```
 5. Test the SSH connection between two machine
-
+ssh [computer_name]@[computer ip]
 ssh irfanrah@192.168.56.1
 ssh ubuntu18@192.168.56.101
 if it's working and able to access both machine, you can proceed to the next step
@@ -58,7 +58,7 @@ git clone https://github.com/irfanrah/ROS-VM-Connection
 ```
 
 ```
-4. Multiple machine setup
+7. Multiple machine setup
 http://wiki.ros.org/ROS/Tutorials/MultipleMachines
 
 a. In master machine 
@@ -76,3 +76,22 @@ export ROS_IP=192.168.56.101
 </p>
 
 
+```
+8. Check it;s working
+a. master machine
+roscore
+cd catkin_ws/src/scripts
+sudo chmod +x listener.py
+./listener
+
+b. slave machine : 
+cd catkin_ws/src/scripts
+sudo chmod +x talker.py
+./talker
+```
+<p align="center">
+<img src="https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/5.png" width=50% height=50%>
+</p>
+<p align="center">
+<img src="https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/6.png" width=50% height=50%>
+</p>
