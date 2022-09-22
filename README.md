@@ -9,10 +9,16 @@ go to File > Host Network Manager > and set up a new profile like this
 </p>
 
 After that, you can change the VM slave connection to Host-only Adapter
-![alt text](https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/1.png)
+<p align="center">
+<img src="https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/1.png" width=50% height=50%>
+</p>
+
 
 2. Check your ip with ifconfig in terminal
-![alt text](https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/2.png)
+<p align="center">
+<img src="https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/2.png" width=50% height=50%>
+</p>
+
 
 
 3. Setup VM slave localhost with 
@@ -27,7 +33,9 @@ sudo systemctl enable ssh --now
 
 
 2. Test the SSH connection between two machine
-![alt text](https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/1.png)
+<p align="center">
+<img src="https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/1.png" width=50% height=50%>
+</p>
 ssh irfanrah@192.168.56.1
 ssh ubuntu18@192.168.56.101
 if it's working and able to access both machine, you can proceed to the next step
@@ -50,5 +58,8 @@ b. In slave machine
 export ROS_MASTER_URI=192.168.56.1:11311
 export ROS_HOSTNAME=192.168.56.101
 export ROS_IP=192.168.56.101
-![alt text](https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/4a.png)
+<p align="center">
+<img src="https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/4a.png" width=50% height=50%>
+</p>
+
 
