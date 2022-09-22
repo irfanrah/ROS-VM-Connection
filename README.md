@@ -4,7 +4,7 @@
 (http://wiki.ros.org/win_ros/Tutorials/WinRos%20and%20Virtual%20Ubuntu)
 go to File > Host Network Manager > and set up a new profile like this
 
-![alt text](https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/3.png)
+<img src="https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/3.png" width=50% height=50%>
 After that, you can change the VM slave connection to Host-only Adapter
 ![alt text](https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/1.png)
 
