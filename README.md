@@ -8,6 +8,7 @@ The objective of this repo is to enable ROS communication between master and sla
 
 
 ---
+### Step-by-step
 ```
 1. You need to change the network on the Virtual Machine, 
 because the NAT network (default) is not compatible with ROS communication
