@@ -114,5 +114,7 @@ sudo chmod +x talker.py
 ### References 
 
 [here 1](http://wiki.ros.org/win_ros/Tutorials/WinRos%20and%20Virtual%20Ubuntu)  
+
 [here 2](https://kr.mathworks.com/matlabcentral/answers/392422-cannot-connect-to-ros-master-running-on-virtual-machine) 
-[here 2](http://wiki.ros.org/ROS/Tutorials/MultipleMachines) 
+
+[here 3](http://wiki.ros.org/ROS/Tutorials/MultipleMachines) 
