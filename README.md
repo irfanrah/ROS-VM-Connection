@@ -59,9 +59,7 @@ ssh irfanrah@192.168.56.1
 ssh ubuntu18@192.168.56.101
 If it's working and you may able to access both machines, you can proceed to the next step
 ```
-<p align="center">
-<img src="https://github.com/irfanrah/ROS-VM-Connection/blob/main/pics/1.png" width=50% height=50%>
-</p>
+
 
 ```
 6. Clone this repo in both machine
